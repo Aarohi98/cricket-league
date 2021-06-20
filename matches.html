@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matches</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+			body{
+			font-family: 'Roboto', sans-serif;
+			background: linear-gradient(to right,yellow,green);
+		}
+
+		.main-container{
+			display: flex;
+			margin: 30px 0 0 50px;
+		}
+
+		.subs a{
+			width: 120px;
+			height: 30px;
+			text-decoration: none;
+			font-size: 20px;
+			border: 2px solid transparent;
+			background-color: darkslateblue;
+			color: white;
+			padding: 10px;
+			margin: 0 50px 0 0;
+			text-align: center;
+
+		}
+
+		.subs a:hover{
+			background-color: white;
+			color: darkslateblue;
+			border: 2px solid darkslateblue;
+		}
+
+		.main-grid{
+			width: 1230px;
+			height: 100%;
+			/* border: 1px solid black; */
+			margin: 40px 0 0 40px;
+			padding: 10px;
+			/* background-color: gainsboro; */
+			display: grid;
+			grid-template-columns: repeat(4,300px);
+			grid-template-rows: repeat(2,350px);
+			grid-gap: 10px 10px;
+		}
+
+		.sub{
+			border:1px solid lightgrey;
+		 	padding:5px;
+		  	background-color: white;
+		  }
+		.sub:hover{background-color: gainsboro;}
+		.sub-grid-1{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-2{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-3{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-4{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-5{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-6{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-7{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-8{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 2/3;
+		}
+
+		
+		div h5,h4{
+			margin: 0;
+		}
+
+		.h3,h2{
+			text-align: center;
+			font-weight: bolder;
+		}
+
+		h5{color: orangered;}
+
+		.result{color: darkslateblue;}
+
+		img{border:1px solid lightgrey;}
+	
+
+		.summary{
+			width: 1210px;
+			height: 400px;
+			border: 1px solid black;
+			margin: 30px 0 0 50px;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="main-container">
+	<div class="subs sub1"><a href="cricket_homepage.html">Home</a></div>
+	<div class="subs sub1"><a href="matches.html">Matches and Results</a></div>
+	<div class="subs sub2"><a href="teams.html">Teams and players</a></div>
+	<div class="subs sub4"><a href="venue.html">Venues</a></div>
+	<div class="subs sub5" style="right: 0; position: absolute;"><a href="score.html">Score Table</a></div>
+</div>
+
+<div class="main-grid">
+	<div class="sub sub-grid-1">
+		<div id="sub-grid1-sub1"><img src="cricket/match/m1.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h2>Sun, 2nd May 2021</h2>
+			<h3 class="h3 match">PK v DC</h3>
+			<h3 class="h3 result">DC won by 7 wickets</h3>
+			<h4><s>PK 166/6</s></h4>
+			<h4>DC 167/3</h4>
+			<h5>Narendra Modi stadium, Ahmedabad</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-2">
+		<div id="sub-grid2-sub1"><img src="cricket/match/m2.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h2>Sun, 2nd May 2021</h2>
+			<h3 class="h3 match">RR v SRH</h3>
+			<h3 class="h3 result">RR won by 55 runs</h3>
+			<h4>RK 220/3</h4>
+			<h4><s>SHR 165/8</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-3">
+		<div id="sub-grid3-sub1"><img src="cricket/match/m3.jpg"></div>
+		<div id="sub-grid3-sub2">
+			<h2>Sat, 1nd May 2021</h2>
+			<h3 class="h3 match">MI v CSK</h3>
+			<h3 class="h3 result">MI won by 4 wickets</h3>
+			<h4>MI 219/6</h4>
+			<h4><s>CSK 218/4</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-4">
+		<div id="sub-grid4-sub1"><img src="cricket/match/m4.jpg"></div>
+		<div id="sub-grid4-sub2">
+			<h2>Fri, 30th April 2021</h2>
+			<h3 class="h3 match">PK v RCB</h3>
+			<h3 class="h3 result">PK won by 34 runs</h3>
+			<h4>PK 159/5</h4>
+			<h4><s>RCB 145/8</s></h4>
+			<h5>Narendra Modi stadium, Ahmedabad</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-5">
+		<div id="sub-grid5-sub1"><img src="cricket/match/m5.jpg"></div>
+		<div id="sub-grid5-sub2">
+			<h2>Thurs, 29th April 2021</h2>
+			<h3 class="h3 match">DC v KKR</h3>
+			<h3 class="h3 result">DC won by 7 wickets</h3>
+			<h4>DC 156/3</h4>
+			<h4><s>KKR 154/6</s></h4>
+			<h5>Narendra Modi stadium, Ahmedabad</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-6">
+		<div id="sub-grid6-sub1"><img src="cricket/match/m6.jpg"></div>
+		<div id="sub-grid6-sub2">
+			<h2>Thurs, 29th April 2021</h2>
+			<h3 class="h3 match">MI v RR</h3>
+			<h3 class="h3 result">MI won by 7 wickets</h3>
+			<h4>MI 172/3</h4>
+			<h4><s>RR 171/4</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-7">
+		<div id="sub-grid7-sub1"><img src="cricket/match/m7.jpg"></div>
+		<div id="sub-grid7-sub2">
+			<h2>Wed, 28th April 2021</h2>
+			<h3 class="h3 match">CSK v SRH</h3>
+			<h3 class="h3 result">CSK won by 7 wickets</h3>
+			<h4>CSK 173/3</h4>
+			<h4><s>SRH 171/3</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-8">
+		<div id="sub-grid8-sub1"><img src="cricket/match/m8.jpg"></div>
+		<div id="sub-grid8-sub2">
+			<h2>Tues, 27th April 2021</h2>
+			<h3 class="h3 match">DC v RCB</h3>
+			<h3 class="h3 result">RCB won by 1 run</h3>
+			<h4><s>DC 170/4</s></h4>
+			<h4>RCB 171/5</h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+</div>
+
+<div class="summary">
+	<h2>Match summary</h2>
+	<p>Donec ac ex et purus blandit congue non non sem. Vestibulum cursus augue eget nulla vulputate interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin non metus quis quam euismod euismod sed non leo. Donec porttitor convallis lectus in porta. Maecenas tristique feugiat elementum. Praesent fermentum fringilla massa, et sollicitudin enim consectetur sed. Sed efficitur, magna a vulputate ullamcorper, nibh ante tincidunt lorem, id finibus nibh lorem eget justo. Nulla egestas euismod tortor non dignissim. Sed viverra eros sed nisl laoreet tempor. Donec tincidunt efficitur odio, ac semper ipsum dignissim at. Aliquam tincidunt varius sapien, at malesuada nisl molestie sed. Aenean pretium quis neque sit amet consectetur.</p>
+
+	<h4>Man of the match:</h4>
+	<h4>Bowler of match:</h4>
+	<h4>Fielder of the match:</h4>
+</div>
+
+</body>
+</html>

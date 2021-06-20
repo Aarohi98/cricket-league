@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rajasthan royals</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+			body{
+			font-family: 'Rubik', sans-serif;
+			background-color: gainsboro;
+		}
+
+		.main-container{
+			display: flex;
+			margin: 30px 0 0 50px;
+		}
+
+		.subs a{
+			width: 120px;
+			height: 30px;
+			text-decoration: none;
+			font-size: 20px;
+			border: 2px solid transparent;
+			background-color: darkslateblue;
+			color: white;
+			padding: 10px;
+			margin: 0 50px 0 0;
+			text-align: center;
+
+		}
+
+		.subs a:hover{
+			background-color: white;
+			color: darkslateblue;
+			border: 2px solid darkslateblue;
+		}
+
+		.banner{
+			width: 1250px;
+			height: 500px;
+			margin: 40px 0 0 30px;
+			padding: 10px;
+			/* border: 1px solid black; */
+			background-color: steelblue;
+			font-size: 25px;
+			text-align: center;
+			color: white;
+		}
+
+		.main-grid{
+			width: 1230px;
+			height: 100%;
+			/* border: 1px solid black; */
+			margin: 40px 0 0 40px;
+			padding: 10px;
+			/* background-color: gainsboro; */
+			display: grid;
+			grid-template-columns: repeat(4,300px);
+			grid-template-rows: repeat(3,350px);
+			grid-gap: 10px 10px;
+		}
+
+		.sub{
+			border:1px solid lightgrey;
+		 	padding:5px;
+		  	background-color: white;
+		  }
+		.sub:hover{opacity: 0.7;}
+		.sub-grid-1{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-2{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-3{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-4{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-5{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-6{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-7{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-8{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-9{
+		display: flex;
+		flex-direction: column;
+		grid-column: 1/2;
+		grid-row: 3/4;
+		}
+
+		.main-grid h1,h5{
+		text-align: center;
+		margin: 0;
+		}
+
+		.main-grid h5{color: blue;}
+
+		img{margin:0 0 0 2px;}
+
+
+
+	</style>
+</head>
+<body>
+<div class="main-container">
+	<div class="subs sub1"><a href="cricket_homepage.html">Home</a></div>
+	<div class="subs sub1"><a href="matches.html">Matches and Results</a></div>
+	<div class="subs sub2"><a href="teams.html">Teams and players</a></div>
+	<div class="subs sub4"><a href="venue.html">Venues</a></div>
+	<div class="subs sub5" style="right: 0; position: absolute;"><a href="score.html">Score Table</a></div>
+</div>
+
+<div class="banner">
+	<h1>Rasjasthan Royals</h1>
+	<h2>Venue:&nbsp &nbsp &nbsp Sawai Mansingh Stadium </h2>
+	<h2>Captain:&nbsp &nbsp Sanju Samson</h2>
+</div>
+
+<div class="main-grid">
+	<div class="sub sub-grid-1">
+		<div id="sub-grid1-sub1"><img src="cricket/rajasthan/sanju.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>Sanju Samson</h1>
+			<h5>Right-handed, N/A</h5>
+			<h3>Matches 7 &nbsp &nbsp Runs 277 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-2">
+		<div id="sub-grid2-sub1"><img src="cricket/rajasthan/miller.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>David Miller</h1>
+			<h5>Left-handed, Off spin</h5>
+			<h3>Matches 6 &nbsp &nbsp Runs 102 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-3">
+		<div id="sub-grid3-sub1"><img src="cricket/rajasthan/jaydev.jpg"></div>
+		<div id="sub-grid3-sub2">
+			<h1>Jaydev Unadkat</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 4 &nbsp &nbsp Runs 35 &nbsp Wickets 4</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-4">
+		<div id="sub-grid4-sub1"><img src="cricket/rajasthan/jos.jpg"></div>
+		<div id="sub-grid4-sub2">
+			<h1>Jos Buttler</h1>
+			<h5>Right-handed, N/A</h5>
+			<h3>Matches 7 &nbsp &nbsp Runs 254 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-5">
+		<div id="sub-grid5-sub1"><img src="cricket/rajasthan/rahul.jpg"></div>
+		<div id="sub-grid5-sub2">
+			<h1>Rahul Tewatia</h1>
+			<h5>Left-handed, Leg spin</h5>
+			<h3>Matches 7 &nbsp &nbsp Runs 86 &nbsp Wickets 2</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-6">
+		<div id="sub-grid6-sub1"><img src="cricket/rajasthan/riyan.jpg"></div>
+		<div id="sub-grid6-sub2">
+			<h1>Riyan Pagar</h1>
+			<h5>Right-handed, Leg spin</h5>
+			<h3>Matches 7 &nbsp &nbsp Runs 78 &nbsp Wickets 1</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-7">
+		<div id="sub-grid7-sub1"><img src="cricket/rajasthan/jaiswal.jpg"></div>
+		<div id="sub-grid7-sub2">
+			<h1>Yashasvi Jaiswal</h1>
+			<h5>Left-handed, Medium seam</h5>
+			<h3>Matches 3 &nbsp &nbsp Runs 66 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-8">
+		<div id="sub-grid8-sub1"><img src="cricket/rajasthan/shivam.jpg"></div>
+		<div id="sub-grid8-sub2">
+			<h1>Shivam Dube</h1>
+			<h5>Left-handed, Medium seam</h5>
+			<h3>Matches 6 &nbsp &nbsp Runs 145 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-9">
+		<div id="sub-grid9-sub1"><img src="cricket/rajasthan/chris.jpg"></div>
+		<div id="sub-grid9-sub2">
+			<h1>Chris Morris</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 7 &nbsp &nbsp Runs 48 &nbsp Wickets 14</h3>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

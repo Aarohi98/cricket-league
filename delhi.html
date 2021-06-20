@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delhi capitals</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+			body{
+			font-family: 'Rubik', sans-serif;
+			background-color: royalblue;
+		}
+
+		.main-container{
+			display: flex;
+			margin: 30px 0 0 50px;
+		}
+
+		.subs a{
+			width: 120px;
+			height: 30px;
+			text-decoration: none;
+			font-size: 20px;
+			border: 2px solid transparent;
+			background-color: darkslateblue;
+			color: white;
+			padding: 10px;
+			margin: 0 50px 0 0;
+			text-align: center;
+
+		}
+
+		.subs a:hover{
+			background-color: white;
+			color: darkslateblue;
+			border: 2px solid darkslateblue;
+		}
+
+		.banner{
+			width: 1250px;
+			height: 500px;
+			margin: 40px 0 0 30px;
+			padding: 10px;
+			/* border: 1px solid black; */
+			background-color: darkblue;
+			font-size: 25px;
+			color: white;
+			text-align: center;
+		}
+
+		.main-grid{
+			width: 1230px;
+			height: 100%;
+			/* border: 1px solid black; */
+			margin: 40px 0 0 40px;
+			padding: 10px;
+			display: grid;
+			grid-template-columns: repeat(4,300px);
+			grid-template-rows: repeat(4,350px);
+			grid-gap: 10px 10px;
+		}
+
+		.sub{
+			border:1px solid lightgrey;
+		 	padding:5px;
+		  	background-color: white;
+		  }
+		
+		.sub-grid-1{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-2{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-3{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-4{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-5{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-6{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-7{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-8{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-9{
+		display: flex;
+		flex-direction: column;
+		grid-column: 1/2;
+		grid-row: 3/4;
+		}
+
+		.sub-grid-10{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-11{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-12{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-13{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 4/5;
+		}
+
+		.main-grid h1,h5{
+			text-align: center;
+			margin: 0;
+		}
+
+		.main-grid h5{color: blue;}
+
+		img{margin:0 0 0 2px;}
+
+
+	</style>
+</head>
+<body>
+<div class="main-container">
+	<div class="subs sub1"><a href="cricket_homepage.html">Home</a></div>
+	<div class="subs sub1"><a href="matches.html">Matches and Results</a></div>
+	<div class="subs sub2"><a href="teams.html">Teams and players</a></div>
+	<div class="subs sub4"><a href="venue.html">Venues</a></div>
+	<div class="subs sub5" style="right: 0; position: absolute;"><a href="score.html">Score Table</a></div>
+</div>
+
+<div class="banner">
+	<h1>Delhi Capitals</h1>
+	<h2>Venue:&nbsp &nbsp &nbsp Arun Jaitley Stadium</h2>
+	<h2>Coach:&nbsp &nbsp &nbsp Ricky Ponting</h2>
+	<h2>Captain:&nbsp &nbsp Rishabh Pant</h2>
+</div>
+
+<div class="main-grid">
+	<div class="sub sub-grid-1">
+		<div id="sub-grid1-sub1"><img src="cricket/delhi/pant.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>Risabh Pant</h1>
+			<h5>Left-handed, N/A</h5>
+			<h3>Matches 8 &nbsp &nbsp Runs 213 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-2">
+		<div id="sub-grid2-sub1"><img src="cricket/delhi/rahane.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>Ajinkya Rahane</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 2 &nbsp &nbsp Runs 8 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-3">
+		<div id="sub-grid3-sub1"><img src="cricket/delhi/chris.jpg"></div>
+		<div id="sub-grid3-sub2">
+			<h1>Chris Woakes</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 3 &nbsp &nbsp Runs 15 &nbsp &nbsp Wickets 5</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-4">
+		<div id="sub-grid4-sub1"><img src="cricket/delhi/ishant.jpg"></div>
+		<div id="sub-grid4-sub2">
+			<h1>Ishant Sharma</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 3 &nbsp &nbsp Runs 0 &nbsp &nbsp Wickets 1</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-5">
+		<div id="sub-grid5-sub1"><img src="cricket/delhi/kagiso.jpg"></div>
+		<div id="sub-grid5-sub2">
+			<h1>Kagiso Rabada</h1>
+			<h5>Left-handed, Fast seam</h5>
+			<h3>Matches 7 &nbsp &nbsp Runs 9 &nbsp &nbsp Wickets 8</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-6">
+		<div id="sub-grid6-sub1"><img src="cricket/delhi/lalit.jpg"></div>
+		<div id="sub-grid6-sub2">
+			<h1>Lalit Yadav</h1>
+			<h5>Right-handed, Off spin</h5>
+			<h3>Matches 5 &nbsp &nbsp Runs 54 &nbsp &nbsp Wickets 3</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-7">
+		<div id="sub-grid7-sub1"><img src="cricket/delhi/marcus.jpg"></div>
+		<div id="sub-grid7-sub2">
+			<h1>Marcus Stoinis</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 8 &nbsp &nbsp Runs 72 &nbsp &nbsp Wickets 2</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-8">
+		<div id="sub-grid8-sub1"><img src="cricket/delhi/shaw.jpg"></div>
+		<div id="sub-grid8-sub2">
+			<h1>Prithvi Shaw</h1>
+			<h5>Right-handed, Off spin</h5>
+			<h3>Matches 8 &nbsp &nbsp Runs 308 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-9">
+		<div id="sub-grid9-sub1"><img src="cricket/delhi/ashwin.jpg"></div>
+		<div id="sub-grid9-sub2">
+			<h1>R Ashwin</h1>
+			<h5>Right-handed, Off spin</h5>
+			<h3>Matches 5 &nbsp &nbsp Runs 7 &nbsp &nbsp Wickets 1</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-10">
+		<div id="sub-grid10-sub1"><img src="cricket/delhi/dhawan.jpg"></div>
+		<div id="sub-grid10-sub2">
+			<h1>Shikhar Dhawan</h1>
+			<h5>Left-handed, Off spin</h5>
+			<h3>Matches 8 &nbsp &nbsp Runs 380 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-11">
+		<div id="sub-grid11-sub1"><img src="cricket/delhi/shimron.jpg"></div>
+		<div id="sub-grid11-sub2">
+			<h1>Shimron Hetmyer</h1>
+			<h5>Left-handed, N/A</h5>
+			<h3>Matches 6 &nbsp &nbsp Runs 84 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-12">
+		<div id="sub-grid12-sub1"><img src="cricket/delhi/steve.jpg"></div>
+		<div id="sub-grid12-sub2">
+			<h1>Steve Smith</h1>
+			<h5>Right-handed, Leg spin</h5>
+			<h3>Matches 6 &nbsp &nbsp Runs 104 &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-13">
+		<div id="sub-grid13-sub1"><img src="cricket/delhi/tom.jpg"></div>
+		<div id="sub-grid13-sub2">
+			<h1>Tom Curran</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 2 &nbsp &nbsp Runs 21 &nbsp &nbsp Wickets 1</h3>
+		</div>
+	</div>
+
+	
+</div>
+</body>
+</html>

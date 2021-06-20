@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chennai super kings</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+			body{
+			font-family: 'Rubik', sans-serif;
+			background-color: lightyellow;
+
+		}
+
+		.main-container{
+			display: flex;
+			margin: 30px 0 0 50px;
+		}
+
+		.subs a{
+			width: 120px;
+			height: 30px;
+			text-decoration: none;
+			font-size: 20px;
+			border: 2px solid transparent;
+			background-color: darkslateblue;
+			color: white;
+			padding: 10px;
+			margin: 0 50px 0 0;
+			text-align: center;
+
+		}
+
+		.subs a:hover{
+			background-color: white;
+			color: darkslateblue;
+			border: 2px solid darkslateblue;
+		}
+
+		.banner{
+			width: 1250px;
+			height: 500px;
+			margin: 40px 0 0 30px;
+			padding: 10px;
+			/* border: 1px solid black; */
+			font-size: 25px;
+			color: white;
+			background: orange;
+			text-align: center;
+		}
+
+		.main-grid{
+			width: 1230px;
+			height: 100%;
+			/* border: 1px solid black; */
+			margin: 40px 0 0 40px;
+			padding: 10px;
+			/* background-color: gainsboro; */
+			display: grid;
+			grid-template-columns: repeat(4,300px);
+			grid-template-rows: repeat(4,350px);
+			grid-gap: 10px 10px;
+		}
+
+		.sub{
+			border:1px solid lightgrey;
+		 	padding:5px;
+		  	background-color: white;
+		  }
+		
+		.sub-grid-1{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-2{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-3{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-4{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-5{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-6{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-7{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-8{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-9{
+		display: flex;
+		flex-direction: column;
+		grid-column: 1/2;
+		grid-row: 3/4;
+		}
+
+		.sub-grid-10{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-11{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-12{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-13{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 4/5;
+		}
+
+		.sub-grid-14{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 4/5;
+		}
+
+	
+
+		.main-grid h1,h5{
+			text-align: center;
+			margin: 0;
+		}
+		.main-grid h5{color: orangered;}
+		
+		img{margin:0 0 0 2px;}
+
+	</style>
+</head>
+<body>
+<div class="main-container">
+	<div class="subs sub1"><a href="cricket_homepage.html">Home</a></div>
+	<div class="subs sub1"><a href="matches.html">Matches and Results</a></div>
+	<div class="subs sub2"><a href="teams.html">Teams and players</a></div>
+	<div class="subs sub4"><a href="venue.html">Venues</a></div>
+	<div class="subs sub5" style="right: 0; position: absolute;"><a href="score.html">Score Table</a></div>
+</div>
+
+<div class="banner">
+	<h1>Chennai Super Kings</h1>
+	<h2>Venue:&nbsp &nbsp &nbsp M. A. Chidambaram Stadium</h2>
+	<h2>Coach:&nbsp &nbsp &nbsp Stephen Fleming</h2>
+	<h2>Captain:&nbsp &nbsp MS Dhoni</h2>
+</div>
+
+<div class="main-grid">
+	<div class="sub sub-grid-1">
+		<div id="sub-grid1-sub1"><img src="cricket/chennai/dhoni.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>MS Dhoni</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 7 &nbsp Runs 37 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-2">
+		<div id="sub-grid2-sub1"><img src="cricket/chennai/rayadu.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>Ambati Rayadu</h1>
+			<h5>Right-handed, Off spin</h5>
+			<h3>Matches 7 &nbsp Runs 136 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-3">
+		<div id="sub-grid3-sub1"><img src="cricket/chennai/bravo.jpg"></div>
+		<div id="sub-grid3-sub2">
+			<h1>Dwayne Bravo</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 4 &nbsp Runs 20 &nbsp &nbsp Wickets 30</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-4">
+		<div id="sub-grid4-sub1"><img src="cricket/chennai/deepak.jpg"></div>
+		<div id="sub-grid4-sub2">
+			<h1>Deepak Chahar</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 7 &nbsp Runs 0 &nbsp &nbsp Wickets 8</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-5">
+		<div id="sub-grid5-sub1"><img src="cricket/chennai/faf.jpg"></div>
+		<div id="sub-grid5-sub2">
+			<h1>Faf Du Plessis</h1>
+			<h5>Right-handed, Leg spin</h5>
+			<h3>Matches 7 &nbsp Runs 320 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-6">
+		<div id="sub-grid6-sub1"><img src="cricket/chennai/imran.jpg"></div>
+		<div id="sub-grid6-sub2">
+			<h1>Imran Tahir</h1>
+			<h5>Right-handed, Leg spin</h5>
+			<h3>Matches 1 &nbsp Runs 0 &nbsp &nbsp Wickets 2</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-7">
+		<div id="sub-grid7-sub1"><img src="cricket/chennai/dhoni.jpg"></div>
+		<div id="sub-grid7-sub2">
+			<h1>Harishankar Reddy</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-8">
+		<div id="sub-grid8-sub1"><img src="cricket/chennai/dhoni.jpg"></div>
+		<div id="sub-grid8-sub2">
+			<h1>Lungi Ngidi</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 3 &nbsp Runs 0 &nbsp &nbsp Wickets 5</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-9">
+		<div id="sub-grid9-sub1"><img src="cricket/chennai/jadeja.jpg"></div>
+		<div id="sub-grid9-sub2">
+			<h1>Ravindra Jadeja</h1>
+			<h5>Left-handed, Orthodox</h5>
+			<h3>Matches 7 &nbsp Runs 131 &nbsp &nbsp Wickets 6</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-10">
+		<div id="sub-grid10-sub1"><img src="cricket/chennai/ruturaj.jpg"></div>
+		<div id="sub-grid10-sub2">
+			<h1>Ruturaj Gaikwad</h1>
+			<h5>Right-handed, Off spin</h5>
+			<h3>Matches 7 &nbsp Runs 196 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-11">
+		<div id="sub-grid11-sub1"><img src="cricket/chennai/curran.jpg"></div>
+		<div id="sub-grid11-sub2">
+			<h1>Sam Curran</h1>
+			<h5>Left-handed, Medium seam</h5>
+			<h3>Matches 7 &nbsp Runs 52 &nbsp &nbsp Wickets 9</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-12">
+		<div id="sub-grid12-sub1"><img src="cricket/chennai/shardul.jpg"></div>
+		<div id="sub-grid12-sub2">
+			<h1>Shardul Thakur</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 7 &nbsp Runs 1 &nbsp &nbsp Wickets 5</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-13">
+		<div id="sub-grid13-sub1"><img src="cricket/chennai/raina.jpg"></div>
+		<div id="sub-grid13-sub2">
+			<h1>Suresh Raina</h1>
+			<h5>Left-handed, Off spin</h5>
+			<h3>Matches 7 &nbsp Runs 123 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-14">
+		<div id="sub-grid14-sub1"><img src="cricket/chennai/ali.jpg"></div>
+		<div id="sub-grid14-sub2">
+			<h1>Moeen Ali</h1>
+			<h5>Left-handed, Off spin</h5>
+			<h3>Matches 6 &nbsp Runs 206 &nbsp &nbsp Wickets 5</h3>
+		</div>
+	</div>
+</div>
+</body>
+</html>

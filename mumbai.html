@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mumbai indians</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+			body{
+			font-family: 'Roboto', sans-serif;
+			background-color: gainsboro;
+			/* background: linear-gradient(to left,royalblue,darkblue); */
+
+		}
+
+		.main-container{
+			display: flex;
+			margin: 30px 0 0 50px;
+		}
+
+		.subs a{
+			width: 120px;
+			height: 30px;
+			text-decoration: none;
+			font-size: 20px;
+			border: 2px solid transparent;
+			background-color: darkslateblue;
+			color: white;
+			padding: 10px;
+			margin: 0 50px 0 0;
+			text-align: center;
+
+		}
+
+		.subs a:hover{
+			background-color: white;
+			color: darkslateblue;
+			border: 2px solid darkslateblue;
+		}
+
+		.banner{
+			width: 1250px;
+			height: 500px;
+			margin: 40px 0 0 30px;
+			padding: 10px;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+			background: url('cricket/mumbai/mumbai_bg.jpg');
+			animation-name: firstanimation;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: ease;
+		}
+
+		@keyframes firstanimation{
+			10%{background: url('cricket/mumbai/mumbai_bg.jpg');}
+			50%{background: url('cricket/mumbai/mumbai_bg2.jpg');}
+		}
+
+		.main-grid{
+			width: 1230px;
+			height: 100%;
+			/* border: 1px solid black; */
+			margin: 40px 0 0 40px;
+			padding: 10px;
+			/* background-color: gainsboro; */
+			display: grid;
+			grid-template-columns: repeat(4,300px);
+			grid-template-rows: repeat(7,350px);
+			grid-gap: 10px 10px;
+		}
+
+		.sub{
+			border:1px solid lightgrey;
+		 	padding:5px;
+		  	background-color: white;
+		  	/* border-radius: 10px 10px 0 0; */
+		  }
+		.sub:hover{box-shadow: 1px 1px 4px dimgrey;}
+		.sub-grid-1{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-2{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-3{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-4{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 1/2;
+		}
+
+		.sub-grid-5{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-6{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-7{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-8{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 2/3;
+		}
+
+		.sub-grid-9{
+		display: flex;
+		flex-direction: column;
+		grid-column: 1/2;
+		grid-row: 3/4;
+		}
+
+		.sub-grid-10{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-11{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-12{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 3/4;
+		}
+
+		.sub-grid-13{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 4/5;
+		}
+
+		.sub-grid-14{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 4/5;
+		}
+
+		.sub-grid-15{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 4/5;
+		}
+
+		.sub-grid-16{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 4/5;
+		}
+
+		.sub-grid-17{
+		display: flex;
+		flex-direction: column;
+		grid-column: 1/2;
+		grid-row: 5/6;
+		}
+
+		.sub-grid-18{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 5/6;
+		}
+
+		.sub-grid-19{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 5/6;
+		}
+
+		.sub-grid-20{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 5/6;
+		}
+
+		.sub-grid-21{
+			display: flex;
+			flex-direction: column;
+			grid-column: 1/2;
+			grid-row: 6/7;
+		}
+
+		.sub-grid-22{
+			display: flex;
+			flex-direction: column;
+			grid-column: 2/3;
+			grid-row: 6/7;
+		}
+
+		.sub-grid-23{
+			display: flex;
+			flex-direction: column;
+			grid-column: 3/4;
+			grid-row: 6/7;
+		}
+
+		.sub-grid-24{
+			display: flex;
+			flex-direction: column;
+			grid-column: 4/5;
+			grid-row: 6/7;
+		}
+
+		.sub-grid-25{
+		display: flex;
+		flex-direction: column;
+		grid-column: 1/2;
+		grid-row: 7/8;
+		}
+
+		.main-grid h1,h5{
+			text-align: center;
+			margin: 0;
+		}
+
+		.main-grid h5{color: darkslateblue;}
+
+		img{margin:0 0 0 2px;}
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="main-container">
+	<div class="subs sub1"><a href="cricket_homepage.html">Home</a></div>
+	<div class="subs sub1"><a href="matches.html">Matches and Results</a></div>
+	<div class="subs sub2"><a href="teams.html">Teams and players</a></div>
+	<div class="subs sub4"><a href="venue.html">Venues</a></div>
+	<div class="subs sub5" style="right: 0; position: absolute;"><a href="score.html">Score Table</a></div>
+</div>
+
+<div class="banner">
+	<h1>Mumbai Indians</h1>
+	<h2>Venue:&nbsp &nbsp &nbsp Wankhede Stadium</h2>
+	<h2>Coach:&nbsp &nbsp &nbsp Mahela Jayawardene</h2>
+	<h2>Captain:&nbsp &nbsp Rohit Sharma</h2>
+</div>
+
+<div class="main-grid">
+	<div class="sub sub-grid-1">
+		<div id="sub-grid1-sub1"><img src="cricket/mumbai/rohit.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>Rohit Sharma</h1>
+			<h5>Right-handed, Off spin</h5>
+			<h3>Matches 1 &nbsp &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-2">
+		<div id="sub-grid2-sub1"><img src="cricket/mumbai/quinton.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h1>Quinton De Kock</h1>
+			<h5>Left-handed, N/A</h5>
+			<h3>Matches 6 &nbsp Runs 155 &nbspWickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-3">
+		<div id="sub-grid3-sub1"><img src="cricket/mumbai/arjun.jpg"></div>
+		<div id="sub-grid3-sub2">
+			<h1>Arjun Tendulkar</h1>
+			<h5>Left-handed, Medium seam</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-4">
+		<div id="sub-grid4-sub1"><img src="cricket/mumbai/adam.jpg"></div>
+		<div id="sub-grid4-sub2">
+			<h1>Adam Milne</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 1 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-5">
+		<div id="sub-grid5-sub1"><img src="cricket/mumbai/chris.jpg"></div>
+		<div id="sub-grid5-sub2">
+			<h1>Chris Lynn</h1>
+			<h5>Right-handed, N/A</h5>
+			<h3>Matches 1 &nbsp Runs 49 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-6">
+		<div id="sub-grid6-sub1"><img src="cricket/mumbai/marco.jpg"></div>
+		<div id="sub-grid6-sub2">
+			<h1>Marco Jansen</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 2 &nbsp Runs 0 &nbsp &nbsp Wickets 2</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-7">
+		<div id="sub-grid7-sub1"><img src="cricket/mumbai/krunal.jpg"></div>
+		<div id="sub-grid7-sub2">
+			<h1>Krunal Pandya</h1>
+			<h5>Left-handed, Orthodox</h5>
+			<h3>Matches 7 &nbsp Runs 100 &nbsp Wickets 3</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-8">
+		<div id="sub-grid8-sub1"><img src="cricket/mumbai/rahul.jpg"></div>
+		<div id="sub-grid8-sub2">
+			<h1>Rahul Chahar</h1>
+			<h5>Right-handed, Leg spin</h5>
+			<h3>Matches 7 &nbsp Runs 14 &nbsp &nbsp Wickets 11</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-9">
+		<div id="sub-grid9-sub1"><img src="cricket/mumbai/jimmy.jpg"></div>
+		<div id="sub-grid9-sub2">
+			<h1>Jimmy Neesham</h1>
+			<h5>Left-handed, Medium seam</h5>
+			<h3>Matches 1 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-10">
+		<div id="sub-grid10-sub1"><img src="cricket/mumbai/ankul.jpg"></div>
+		<div id="sub-grid10-sub2">
+			<h1>Anukul Roy</h1>
+			<h5>Left-handed, Orthodox</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-11">
+		<div id="sub-grid11-sub1"><img src="cricket/mumbai/ishan.jpg"></div>
+		<div id="sub-grid11-sub2">
+			<h1>Ishan Kishan</h1>
+			<h5>Left-handed,N/A</h5>
+			<h3>Matches 5 &nbsp Runs 73 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-12">
+		<div id="sub-grid12-sub1"><img src="cricket/mumbai/aditya.jpg"></div>
+		<div id="sub-grid12-sub2">
+			<h1>Aditya Tare</h1>
+			<h5>Right-handed, N/A</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-13">
+		<div id="sub-grid13-sub1"><img src="cricket/mumbai/hardik.jpg"></div>
+		<div id="sub-grid13-sub2">
+			<h1>Hardik Pandya</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 7 &nbsp Runs 52 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-14">
+		<div id="sub-grid14-sub1"><img src="cricket/mumbai/saurabh.jpg"></div>
+		<div id="sub-grid14-sub2">
+			<h1>Saurabh Tiwary</h1>
+			<h5>Left-handed, N/A</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-15">
+		<div id="sub-grid15-sub1"><img src="cricket/mumbai/jaspreet.jpg"></div>
+		<div id="sub-grid15-sub2">
+			<h1>Jaspreet Bumrah</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 7 &nbsp Runs 4 &nbsp &nbsp Wickets 6</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-16">
+		<div id="sub-grid16-sub1"><img src="cricket/mumbai/dhawal.jpg"></div>
+		<div id="sub-grid16-sub2">
+			<h1>Dhawal Kulkarni</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 1 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-17">
+		<div id="sub-grid17-sub1"><img src="cricket/mumbai/suryakumar.jpg"></div>
+		<div id="sub-grid17-sub2">
+			<h1>Suryakumar Yadav</h1>
+			<h5>Right-handed, N/A</h5>
+			<h3>Matches 7 &nbsp Runs 173 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-18">
+		<div id="sub-grid18-sub1"><img src="cricket/mumbai/jayant.jpg"></div>
+		<div id="sub-grid18-sub2">
+			<h1>Jayant Yadav</h1>
+			<h5>Right-handed, Off spin</h5>
+			<h3>Matches 3 &nbsp Runs 23 &nbsp &nbsp Wickets 1</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-19">
+		<div id="sub-grid19-sub1"><img src="cricket/mumbai/piyush.jpg"></div>
+		<div id="sub-grid19-sub2">
+			<h1>Piyush Chawla</h1>
+			<h5>Left-handed, Leg spin</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-20">
+		<div id="sub-grid20-sub1"><img src="cricket/mumbai/pollard.jpg"></div>
+		<div id="sub-grid20-sub2">
+			<h1>Kieron Pollard</h1>
+			<h5>Right-handed, Medium seam</h5>
+			<h3>Matches 7 &nbsp Runs 168 &nbsp &nbsp Wickets 3</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-21">
+		<div id="sub-grid21-sub1"><img src="cricket/mumbai/anmol.jpg"></div>
+		<div id="sub-grid21-sub2">
+			<h1>Anmolpreet Singh</h1>
+			<h5>Right-handed, N/A</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-22">
+		<div id="sub-grid22-sub1"><img src="cricket/mumbai/mohsin.jpg"></div>
+		<div id="sub-grid22-sub2">
+			<h1>Mohsin Khan</h1>
+			<h5>Left-handed, Fast seam</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-23">
+		<div id="sub-grid23-sub1"><img src="cricket/mumbai/yudhvir.jpg"></div>
+		<div id="sub-grid23-sub2">
+			<h1>Yudhvir Charak</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 0 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-24">
+		<div id="sub-grid24-sub1"><img src="cricket/mumbai/nathan.jpg"></div>
+		<div id="sub-grid23-sub2">
+			<h1>Nathan Coulter-Nile</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 1 &nbsp Runs 0 &nbsp &nbsp Wickets 0</h3>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-25">
+		<div id="sub-grid25-sub1"><img src="cricket/mumbai/trent.jpg"></div>
+		<div id="sub-grid25-sub2">
+			<h1>Trent Boult</h1>
+			<h5>Right-handed, Fast seam</h5>
+			<h3>Matches 7 &nbsp Runs 1 &nbsp &nbsp Wickets 8</h3>
+		</div>
+	</div>
+</div>
+</body>
+</html>

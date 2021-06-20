@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venues</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body{
+			font-family: 'Roboto', sans-serif;
+			background: linear-gradient(to right,yellow,green);
+		}
+
+		.main-container{
+			display: flex;
+			margin: 30px 0 30px 50px;
+		}
+
+		.subs a{
+			width: 120px;
+			height: 30px;
+			text-decoration: none;
+			font-size: 20px;
+			border: 2px solid transparent;
+			background-color: darkslateblue;
+			color: white;
+			padding: 10px;
+			margin: 0 50px 0 0;
+			text-align: center;
+		}
+
+		.subs a:hover{
+			background-color: white;
+			color: darkslateblue;
+			border: 2px solid darkslateblue;
+		}
+
+		.sub{
+			border:1px solid lightgrey;
+			width: 800px;
+			border-radius: 5px;
+			padding:5px;
+			display: flex;
+			margin: 10px 0 0 250px;
+			background-color: white;
+		}
+		.sub:hover{background-color: gainsboro;}
+
+		img{
+			margin: 80px 10px 0 0;
+		}
+
+		h5{color: orangered;}
+		h4{margin: 0;}
+		s{color: grey;}
+
+
+		.result{color: darkslateblue;}
+	</style>
+</head>
+<body>
+<div class="main-container">
+	<div class="subs sub1"><a href="cricket_homepage.html">Home</a></div>
+	<div class="subs sub1"><a href="matches.html">Matches and Results</a></div>
+	<div class="subs sub2"><a href="teams.html">Teams and players</a></div>
+	<div class="subs sub4"><a href="venue.html">Venues</a></div>
+	<div class="subs sub5" style="right: 0; position: absolute;"><a href="score.html">Score Table</a></div>
+</div>
+
+<h1>Ahmedabad</h1>
+<div class="ahmedabad-grid">
+	<div class="sub sub-grid-1">
+		<div id="sub-grid1-sub1"><img src="cricket/match/m1.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h2>Sunday, 2nd May 2021</h2>
+			<h3 class="h3 match">Punjab Kings v Delhi Capitals</h3>
+			<h3 class="h3 result">Delhi Capitals won by 7 wickets</h3>
+			<h4><s>Punjab Kings 166/6</s></h4>
+			<h4>Delhi Capitals 167/3</h4>
+			<h5>Narendra Modi stadium, Ahmedabad</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-2">
+		<div id="sub-grid2-sub1"><img src="cricket/match/m4.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h2>Friday, 30th April 2021</h2>
+			<h3 class="h3 match">Punjab Kings v Royal Challengers Bangalore</h3>
+			<h3 class="h3 result">Punjab Kings won by 34 runs</h3>
+			<h4>Punjab Kings 159/5</h4>
+			<h4><s>Royal Challengers Bangalore 145/8</s></h4>
+			<h5>Narendra Modi stadium, Ahmedabad</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-3">
+		<div id="sub-grid3-sub1"><img src="cricket/match/m5.jpg"></div>
+		<div id="sub-grid3-sub2">
+			<h2>Thursday, 29th April 2021</h2>
+			<h3 class="h3 match">Delhi Capitals v Kolkata Knight Riders</h3>
+			<h3 class="h3 result">Delhi Capitals won by 7 wickets</h3>
+			<h4>Delhi Capitals 156/3</h4>
+			<h4><s>Kolkata Knight Riders 154/6</s></h4>
+			<h5>Narendra Modi stadium, Ahmedabad</h5>
+		</div>
+	</div>
+</div>
+
+<h1>Delhi</h1>
+<div class="mumbai-grid">
+	<div class="sub sub-grid-1">
+		<div id="sub-grid1-sub1"><img src="cricket/match/m2.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h2>Sunday, 2nd May 2021</h2>
+			<h3 class="h3 match">Rajasthan Royals v Sunrisers Hyderabad</h3>
+			<h3 class="h3 result">Rajasthan Royals won by 55 runs</h3>
+			<h4>Rajasthan Royals 220/3</h4>
+			<h4><s>Sunrisers Hyderabad 165/8</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-2">
+		<div id="sub-grid2-sub1"><img src="cricket/match/m3.jpg"></div>
+		<div id="sub-grid2-sub2">
+			<h2>Saturday, 1nd May 2021</h2>
+			<h3 class="h3 match">Mumbai Indians v Chennai Super Kings</h3>
+			<h3 class="h3 result">Mumbai Indians won by 4 wickets</h3>
+			<h4>Mumbai Indians 219/6</h4>
+			<h4><s>Chennai Super Kings 218/4</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-3">
+		<div id="sub-grid3-sub1"><img src="cricket/match/m6.jpg"></div>
+		<div id="sub-grid3-sub2">
+			<h2>Thursday, 29th April 2021</h2>
+			<h3 class="h3 match">Mumbai Indians v Rajasthan Royals</h3>
+			<h3 class="h3 result">Mumbai Indians won by 7 wickets</h3>
+			<h4>Mumbai Indians 172/3</h4>
+			<h4><s>Rajasthan Royals 171/4</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-4">
+		<div id="sub-grid4-sub1"><img src="cricket/match/m7.jpg"></div>
+		<div id="sub-grid4-sub2">
+			<h2>Wednesday, 28th April 2021</h2>
+			<h3 class="h3 match">Chennai Super Kings v Sunrisers Hyderabad</h3>
+			<h3 class="h3 result">Chennai Super Kings won by 7 wickets</h3>
+			<h4>Chennai Super Kings 173/3</h4>
+			<h4><s>Sunrisers Hyderabad 171/3</s></h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+
+	<div class="sub sub-grid-5">
+		<div id="sub-grid5-sub1"><img src="cricket/match/m8.jpg"></div>
+		<div id="sub-grid5-sub2">
+			<h2>Tues, 27th April 2021</h2>
+			<h3 class="h3 match">Delhi Capitals v Royal Challengers Bangalore</h3>
+			<h3 class="h3 result">Royal Challengers Bangalore won by 1 run</h3>
+			<h4><s>Delhi Capitals 170/4</s></h4>
+			<h4>Royal Challengers Bangalore 171/5</h4>
+			<h5>Arun Jaitley stadium, Delhi</h5>
+		</div>
+	</div>
+</div>
+
+</div>
+</body>
+</html>
